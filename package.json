@@ -1,0 +1,39 @@
+{
+  "name": "ohai",
+  "version": "1.0.0",
+  "description": "Intersecting disciplines to inspire creation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --ignore /public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThumbTaps/OHAI.git"
+  },
+  "keywords": [
+    "teamwork",
+    "create",
+    "build",
+    "work",
+    "together",
+    "collaborate",
+    "inspire",
+    "inspiration"
+  ],
+  "author": "Thumb Taps, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThumbTaps/OHAI/issues"
+  },
+  "homepage": "https://github.com/ThumbTaps/OHAI#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "helmet": "^3.8.2"
+  }
+}

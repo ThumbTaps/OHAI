@@ -1,0 +1,38 @@
+html {
+	font-family: Helvetica, Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #F5CE23;
+	margin: 0;
+	padding: 0;
+}
+
+#contentContainer {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background-color: white;
+	padding: 1em;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.logo {
+	margin: 15em auto;
+	width: 400px;
+	height: 200px;
+	background-image: url(/assets/logo/logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+footer {
+	height: 240px;
+}
